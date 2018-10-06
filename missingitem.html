@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admiral Nation</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="shortcut icon" type="image/png" href="Branding/Favicon.png" />
+    <link rel="stylesheet" href="vivify.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<header>
+    <a href="index.html">
+        <div class="logocontainer"><img class="logo shophover" src="Branding/admiralnationdotcom Logo.png"></div>
+    </a>
+    <nav>
+        <h3 class="contenttext">Tops </h3>
+       <ul id="foo" id="menu" class="">
+            <a style="text-decoration: none;" href="index.html">
+                <li >Home</li>
+            </a>
+            <a style="text-decoration: none;">
+                <li id="toggle" class="shophover active">Shop</li>
+            </a>
+            <a style="text-decoration: none;" href="Watch Live.html">
+                <li>Watch Live</li>
+            </a>
+            <a style="text-decoration: none;" href="Archive.html">
+                <li>GTV Archive</li>
+            </a>
+        </ul> <img class="adidas" src="Branding/2000px-Adidas_Logo.svg.png">
+        <div class="socialicons">
+            <a href="https://www.snapchat.com/add/admiralnation" target="_blank"><img style="right: 190px;" src="Branding/Snapchat Logo.svg"></a>
+            <a href="https://www.instagram.com/admiral_nation/?utm_source=ig_profile_share&igshid=1ehxczpkif6wd" target="_blank"><img style="right: 250px;" src="Branding/Instagram%20Logo.svg"> </a>
+            <a href="https://twitter.com/GHSstore" target="_blank"><img style="right: 310px;" src="Branding/Twitter%20Logo.svg"></a>
+        </div>
+        <div class="headerbase"></div>
+    </nav> <img class="hamburger vivify popIn" src="ic_menu_24px.svg">
+</header>
+	<div class="missingguy vivify pullDown" onClick="goback()" ><img src="Assets/Unavailable Guy.jpg"></div>
+	
+	<script>
+function goBack() {
+    window.history.back()
+}
+</script>
+	
+<div class="filter vivify pullLeft duration-500" id="content">
+    <a href="All.html">
+        <h3 class="filteritem " style="color: #012395; ">All</h3>
+    </a>
+    <a href="Tops.html ">
+        <h3 class="filteritem" style="color: #012395; ">Tops</h3>
+    </a>
+    <a href="Bottoms.html">
+        <h3 class="filteritem" style="color: #012395; ">Bottoms</h3>
+    </a>
+    <a href="Hats.html">
+        <h3 class="filteritem" style="color: #012395; ">Hats</h3>
+    </a>
+    <a href="Others.html">
+        <h3 class="filteritem" style="color: #012395; ">Acessories</h3>
+    </a>
+    <a href="Adidas.html">
+        <h3 class="filteritem" style="color: #012395; ">Adidas</h3>
+    </a>
+</div>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" activedot", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " activedot";
+    }
+
+</script>
+<script type="text/javascript">
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block') e.style.display = 'none';
+        else e.style.display = 'block';
+    }
+
+</script>
+<script>
+    var toggle = document.getElementById("toggle");
+    var content = document.getElementById("content");
+    toggle.addEventListener("click", function() {
+        content.style.display = (content.dataset.toggled ^= 1) ? "block" : "none";
+    });
+
+</script>
+
+</html>
