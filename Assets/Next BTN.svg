@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 104 44">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Next_BTN);
+      }
+
+      .cls-2 {
+        font-size: 22px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Next_BTN">
+      <rect width="104" height="44"/>
+    </clipPath>
+  </defs>
+  <g id="Next_BTN" data-name="Next BTN" class="cls-1">
+    <rect class="cls-3" width="104" height="44"/>
+    <path id="ic_keyboard_arrow_right_24px" d="M8.59,16.34l4.58-4.59L8.59,7.16,10,5.75l6,6-6,6Z" transform="translate(74.41 10.25)"/>
+    <text id="Next" class="cls-2" transform="translate(17 9)"><tspan x="0" y="20">Next</tspan></text>
+  </g>
+</svg>

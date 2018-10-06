@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 35 35">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Medium_Size);
+      }
+
+      .cls-2 {
+        fill: #012395;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 23px;
+        font-family: ArialMT, Arial;
+      }
+    </style>
+    <clipPath id="clip-Medium_Size">
+      <rect width="35" height="35"/>
+    </clipPath>
+  </defs>
+  <g id="Medium_Size" data-name="Medium Size" class="cls-1">
+    <rect class="cls-4" width="35" height="35"/>
+    <circle id="Ellipse_46" data-name="Ellipse 46" class="cls-2" cx="17.5" cy="17.5" r="17.5"/>
+    <text id="S" class="cls-3" transform="translate(5 5)"><tspan x="5.33" y="21">S</tspan></text>
+    <circle id="Ellipse_47" data-name="Ellipse 47" class="cls-2" cx="17.5" cy="17.5" r="17.5"/>
+    <text id="M" class="cls-3" transform="translate(5 5)"><tspan x="3.42" y="21">M</tspan></text>
+  </g>
+</svg>

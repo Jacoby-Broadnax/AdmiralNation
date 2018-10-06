@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 96 35">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-One_Size);
+      }
+
+      .cls-2 {
+        fill: #012395;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 18px;
+        font-family: ArialMT, Arial;
+      }
+    </style>
+    <clipPath id="clip-One_Size">
+      <rect width="96" height="35"/>
+    </clipPath>
+  </defs>
+  <g id="One_Size" data-name="One Size" class="cls-1">
+    <rect class="cls-4" width="96" height="35"/>
+    <rect id="Rectangle_87" data-name="Rectangle 87" class="cls-2" width="96" height="35" rx="17.5"/>
+    <text id="One_Size-2" data-name="One Size" class="cls-3" transform="translate(3 8)"><tspan x="6.98" y="16">One Size</tspan></text>
+  </g>
+</svg>
