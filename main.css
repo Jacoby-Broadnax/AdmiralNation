@@ -59,7 +59,7 @@ top: 8.1px;
 
 }
 
-footer {width: 100%;position: absolute; background-color: white;box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.17);}
+footer {width: 100%;position: fixed; background-color: white;box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.17);bottom: 0px;}
 
 footer > h3 {font-size: 13px; text-align: center;font-weight: 400;}
 
@@ -85,6 +85,12 @@ footer > h3 {font-size: 13px; text-align: center;font-weight: 400;}
 }
 
 .shopright {}
+
+.viewrapper {width: 1920px;;margin-top: -27px;overflow: scroll; margin-bottom: -50px;}
+
+.viewrapper > a > button {padding-bottom: 0px;padding-top: 220px;display: inline; margin-top: -350px;opacity: 0;padding-left: 50px;margin-left: 440px;padding-right: 160px;transition: 0.3s ease;object-fit:fill; background-size: cover;padding-bottom: 30px; border: none;}
+
+.viewrapper > a > button:hover {opacity: 1;background-image: url(ShopItems/StadiumSeats.jpg)}
 
 ul > a > li {
     font-family: sans-serif;
