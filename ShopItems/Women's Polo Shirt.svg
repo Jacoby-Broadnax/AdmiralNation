@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 450 535">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Women_s_Polo_Shirt);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #505050;
+      }
+
+      .cls-3 {
+        font-size: 28px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-4 {
+        font-size: 38px;
+        opacity: 0.74;
+      }
+
+      .cls-5 {
+        font-size: 39px;
+        opacity: 0.42;
+      }
+
+      .cls-6 {
+        filter: url(#Rectangle_110);
+      }
+    </style>
+    <filter id="Rectangle_110" x="-9" y="-9" width="468" height="419.65" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Women_s_Polo_Shirt">
+      <rect width="450" height="535"/>
+    </clipPath>
+  </defs>
+  <g id="Women_s_Polo_Shirt" data-name="Women&apos;s Polo Shirt" class="cls-1">
+    <rect class="cls-2" width="450" height="535"/>
+    <g id="Group_421" data-name="Group 421" transform="translate(0 0.293)">
+      <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-2" width="450" height="534.671" transform="translate(0 0)"/>
+      <text id="Women_s_Polo_Shirt-2" data-name="Women&apos;s Polo Shirt" class="cls-3" transform="translate(0.291 425.971)"><tspan x="102.321" y="25">Women&apos;s Polo Shirt</tspan></text>
+      <text id="_40.00" data-name="$40.00" class="cls-4" transform="translate(16.704 465.677)"><tspan x="149.026" y="34">$40.00</tspan></text>
+    </g>
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <rect id="Rectangle_110-2" data-name="Rectangle 110" class="cls-2" width="450" height="401.65"/>
+    </g>
+    <text id="Image_Unavailable" data-name="Image Unavailable" class="cls-5" transform="translate(63.126 188.136)"><tspan x="0.023" y="35">Image Unavailable</tspan></text>
+  </g>
+</svg>
