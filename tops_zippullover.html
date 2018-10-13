@@ -134,7 +134,14 @@
         dots[slideIndex - 1].className += " activedot";
     }
 </script>
+<script type="text/javascript">
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block') e.style.display = 'none';
+        else e.style.display = 'block';
+    }
 
+</script>
  <footer>
     <h3> ©2018 Admiral Nation</h3>
 </footer>
