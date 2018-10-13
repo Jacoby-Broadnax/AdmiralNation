@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Responsive Nav Bar</title>
+    <link rel="stylesheet" href="navbar.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="vivify.min.css">
+</head>
+<body>
+<nav><img class="menu" id="menu" src="Assets/outline-menu-24px (1).svg">
+    <a href="index.html"><img src="Branding/admiralnationdotcom Logo.png"></a><ul   id="items">
+   <a href="index.html"><li class="vivify fadeIn delay-100 active" >Home</li></a> 
+    <a href="All.html"><li class="vivify fadeIn delay-150" >Shop</li></a>
+    <a href="Watch Live.html"><li class="vivify fadeIn delay-200" >Watch Live</li></a>
+    <a href="Archive.html"><li class="vivify fadeIn delay-250">WGTV Archive</li></a>
+
+</ul></nav>
+<div class="socialicons">
+    <a href="https://www.snapchat.com/add/admiralnation" target="_blank"><img style="right: 190px;" src="Branding/Snapchat Logo.svg"></a>
+    <a href="https://www.instagram.com/admiral_nation/?utm_source=ig_profile_share&igshid=1ehxczpkif6wd" target="_blank"><img style="right: 250px;" src="Branding/Instagram%20Logo.svg"> </a>
+    <a href="https://twitter.com/GHSstore" target="_blank"><img style="right: 310px;" src="Branding/Twitter%20Logo.svg"></a>
+</div>
+<a href="Adidas.html"><img class="adidas" src="Branding/2000px-Adidas_Logo.svg.png"></a>
+<div class="content"><div class="item1"><img src="https://source.unsplash.com/1920x1080/?nature"></div></div>
+
+
+<script>
+        var toggle = document.getElementById("menu");
+        var content = document.getElementById("items");
+        toggle.addEventListener("click", function() {
+            content.style.display = (content.dataset.toggled ^= 1) ? "block" : "none";
+        });
+
+    </script>
+
+</body>
+
+</html>
