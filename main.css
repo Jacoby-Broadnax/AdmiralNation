@@ -78,11 +78,11 @@ footer > h3 {font-size: 13px; text-align: center;font-weight: 400;}
     border: none
 }
 
-ul > a > li{display: inline;text-decoration: none;margin-left: 25px;color:#012395;padding: 10px 25px 10px 25px;font-size: 13px; transition: 0.2s ease; }
+ul > a > li{display: inline;text-decoration: none;margin-left: 25px;color:#012395;padding: 10px 25px 10px 25px;font-size: 13px; transition: 0.3s ease; }
 
 ul > li {display: inline;text-decoration: none;margin-left: 25px;color:#012395;padding: 10px 25px 10px 25px;font-size: 13px; transition: 0.2s ease; cursor: pointer}
 
-ul > a > li:hover {color:white; background-color: #012395; }
+ul > a > li:hover {background-color: #ecebeb; }
 
 nav > a > img {position: fixed; width: 180px;top: 13px; left: 25px;}
 
@@ -732,7 +732,7 @@ ul > li {line-height: 75px;}
 
 
 @media screen and (max-width: 800px) {
-.carousel-cell > img {height: 200px;object-fit: contain;}.clothescontainer > a > img:hover{width: 170px; margin: auto}}
+.carousel-cell > img {height: 200px;object-fit: contain;}.clothescontainer > a > img:hover{width: 170px; margin: auto}.shopbtn1{display: none}}
 	
 
 
