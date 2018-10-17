@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 97 35">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Magnet_Diameter);
+      }
+
+      .cls-2 {
+        fill: #012395;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 18px;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-4 {
+        font-size: 7px;
+      }
+    </style>
+    <clipPath id="clip-Magnet_Diameter">
+      <rect width="97" height="35"/>
+    </clipPath>
+  </defs>
+  <g id="Magnet_Diameter" data-name="Magnet Diameter" class="cls-1">
+    <rect class="cls-5" width="97" height="35"/>
+    <rect id="Rectangle_86" data-name="Rectangle 86" class="cls-2" width="97" height="35" rx="17.5"/>
+    <text id="_5.5_inch." data-name="5.5 inch." class="cls-3" transform="translate(5 10)"><tspan x="9.478" y="16">5.5 inch.</tspan></text>
+    <text id="Diameter" class="cls-4" transform="translate(5 4)"><tspan x="29.302" y="6">Diameter</tspan></text>
+  </g>
+</svg>

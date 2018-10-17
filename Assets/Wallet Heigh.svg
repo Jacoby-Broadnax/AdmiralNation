@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 102 35">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Wallet_Heigh);
+      }
+
+      .cls-2 {
+        fill: #012395;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 18px;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-4 {
+        font-size: 7px;
+      }
+    </style>
+    <clipPath id="clip-Wallet_Heigh">
+      <rect width="102" height="35"/>
+    </clipPath>
+  </defs>
+  <g id="Wallet_Heigh" data-name="Wallet Heigh" class="cls-1">
+    <rect class="cls-5" width="102" height="35"/>
+    <rect id="Rectangle_86" data-name="Rectangle 86" class="cls-2" width="102" height="35" rx="17.5"/>
+    <text id="_3.25_inch." data-name="3.25 inch." class="cls-3" transform="translate(5 10)"><tspan x="6.972" y="16">3.25 inch.</tspan></text>
+    <text id="Height" class="cls-4" transform="translate(5 4)"><tspan x="35.883" y="6">Height</tspan></text>
+  </g>
+</svg>
