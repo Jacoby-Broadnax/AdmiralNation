@@ -9,41 +9,64 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="Branding/Favicon.png" />
     <link rel="stylesheet" href="vivify.min.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1"> </head>
-   
-    <nav><img class="menu" id="menu" src="Assets/outline-menu-24px (1).svg">
-        <a href="index.html"><img src="Branding/admiralnationdotcom Logo.png"></a><ul   id="items">
-       <a href="index.html"><li class="vivify fadeIn delay-100 active" >Home</li></a> 
-        <a href="All.html"><li class="vivify fadeIn delay-150" >Shop</li></a>
-        <a href="Watch Live.html"><li class="vivify fadeIn delay-200" >Watch Live</li></a>
-        <a href="Archive.html"><li class="vivify fadeIn delay-250">WGTV Archive</li></a>
-    
-    </ul></nav>
-    <div class="socialicons">
-        <a href="https://www.snapchat.com/add/admiralnation" target="_blank"><img style="right: 190px;" src="Branding/Snapchat Logo.svg"></a>
-        <a href="https://www.instagram.com/admiral_nation/?utm_source=ig_profile_share&igshid=1ehxczpkif6wd" target="_blank"><img style="right: 250px;" src="Branding/Instagram%20Logo.svg"> </a>
-        <a href="https://twitter.com/GHSstore" target="_blank"><img style="right: 310px;" src="Branding/Twitter%20Logo.svg"></a>
-    </div>
-    <a href="Adidas.html"><img class="adidas" src="Branding/2000px-Adidas_Logo.svg.png"></a>
-       
-      
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<nav><img class="menu" id="menu" src="Assets/outline-menu-24px (1).svg">
+    <a href="index.html"><img src="Branding/admiralnationdotcom Logo.png"></a>
+    <ul id="items">
+        <a href="index.html">
+            <li class="vivify fadeIn delay-100 active">Home</li>
+        </a>
+        <a href="All.html">
+            <li class="vivify fadeIn delay-150">Shop</li>
+        </a>
+        <a href="Watch Live.html">
+            <li class="vivify fadeIn delay-200">Watch Live</li>
+        </a>
+        <a href="Archive.html">
+            <li class="vivify fadeIn delay-250">WGTV Archive</li>
+        </a>
+
+    </ul>
+</nav>
+<div class="socialicons">
+    <a href="https://www.snapchat.com/add/admiralnation" target="_blank"><img style="right: 190px;" src="Branding/Snapchat Logo.svg"></a>
+    <a href="https://www.instagram.com/admiral_nation/?utm_source=ig_profile_share&igshid=1ehxczpkif6wd" target="_blank"><img
+            style="right: 250px;" src="Branding/Instagram%20Logo.svg"> </a>
+    <a href="https://twitter.com/GHSstore" target="_blank"><img style="right: 310px;" src="Branding/Twitter%20Logo.svg"></a>
+</div>
+<a href="Adidas.html"><img class="adidas" src="Branding/2000px-Adidas_Logo.svg.png"></a>
+
+
 <script>
     var toggle = document.getElementById("menu");
     var content = document.getElementById("items");
-    toggle.addEventListener("click", function() {
+    toggle.addEventListener("click", function () {
         content.style.display = (content.dataset.toggled ^= 1) ? "block" : "none";
     });
 
 </script>
+<div class="carouselwrapper">
+    <div class="carousel2 " data-flickity='{ "draggable": true, "autoPlay": 2300, "pageDots": false  }'>
+        <div class="carousel-cell2 "><img src="ShopItems/IMG_6267.png"></div>
+        <div class="carousel-cell2 "><img src="ShopItems/bluepolo.png"></div>
+
+
+    </div>
+</div>
+
 <div class="infocontainer vivify fadeIn delay-200">
     <div class="topmenu">
         <h1>
-Men’s Polo Shirts
+            Men’s Polo Shirts
 
         </h1>
         <h3>$40.00</h3>
-        <h4 onclick="toggle_visibility('form');">Order For Pickup</h4></div>
-    <form style="display: none" action="mailto:amy.lee@gulfportschools.org?subject=AdmiralNation.com Order" class="vivify pullDown" method="post" enctype="text/plain" id="form">
+        <h4 onclick="toggle_visibility('form');">Order For Pickup</h4>
+    </div>
+    <form style="display: none" action="mailto:amy.lee@gulfportschools.org?subject=AdmiralNation.com Order" class="vivify pullDown"
+        method="post" enctype="text/plain" id="form">
         <h3>Name</h3>
         <input type="text" name="Name">
         <h3>E-Mail</h3>
@@ -64,27 +87,21 @@ Men’s Polo Shirts
             <option value="Royal Blue">Royal Blue</option>
             <option value="Black">Black</option>
         </select>
-        <input type="text" style="box-shadow: 0px 0px 0px;border: none;cursor: default;margin: auto;width: 250px;margin-top: 20px;margin-bottom: 0px;pointer-events: none;" value="Men’s Polo Shirt" name="Item" size="50">
+        <input type="text" style="box-shadow: 0px 0px 0px;border: none;cursor: default;margin: auto;width: 250px;margin-top: 20px;margin-bottom: 0px;pointer-events: none;"
+            value="Men’s Polo Shirt" name="Item" size="50">
         <br>
         <br>
         <input type="submit" value="Complete">
-        <h3 style="margin: auto;width: 210px;margin-top: 10px;">Note: Transaction Made In Store </h3> </form>
-    <div class="slideshow-container">
-        <div class="mySlides vivify fadeIn"> <img src="ShopItems/IMG_6267.png" style="width:100%"> </div>
-        <div class="mySlides vivify fadeIn"> <img src="ShopItems/IMG_6263.png" style="width:100%"> </div>
-        
-        <div class="slidebtns">
-            <a class="prev" onclick="plusSlides(-1)"><img src="Assets/Back%20Btn.svg"></a>
-            <a class="next" onclick="plusSlides(1)"><img src="Assets/Next%20BTN.svg"> </a>
-        </div>
-        <div style="text-align:center"> <span class="dot" onclick="currentSlide(1)"></span> <span class="dot" onclick="currentSlide(2)"></span> </div>
-    </div>
+        <h3 style="margin: auto;width: 210px;margin-top: 10px;">Note: Transaction Made In Store </h3>
+    </form>
+
     <div class="descriptcontainer">
         <h3>Information</h3>
         <div class="blockcontainer">
             <div class="block1container">
                 <h3>Sizes Available</h3>
-                <div class="block1"> <img src="Assets/Small%20Size.svg"><img src="Assets/Medium%20Size.svg"><img src="Assets/Large%20Size.svg"><img src="Assets/X%20Large%20Size.svg"><img src="Assets/XX Large Size.svg"> </div>
+                <div class="block1"> <img src="Assets/Small%20Size.svg"><img src="Assets/Medium%20Size.svg"><img src="Assets/Large%20Size.svg"><img
+                        src="Assets/X%20Large%20Size.svg"><img src="Assets/XX Large Size.svg"> </div>
             </div>
             <div class="block2container">
                 <h3>Colors Available</h3>
@@ -96,12 +113,17 @@ Men’s Polo Shirts
         </div>
         <div class="descriptiontext">
             <h3>Description</h3>
-            <p> The semi formal Select Men’s Polo Shirt is for a man that is looking for more of a professional look. It comes in sizes of small, medium, large, XL, and XXL. These are all made with 100% polyester, which is a very breathable and lightweight material, with It has a three stripe detail across it. The shirt comes in the solid colors of grey, black, and royal blue. It has an Adidas logo on the right side of the chest and an Gulfport Admiral “G” on the left side of the chest. This affordable Select Men's Polo shirt will give anybody a sharper look at the price of $40.</p>
+            <p> The semi formal Select Men’s Polo Shirt is for a man that is looking for more of a professional look.
+                It comes in sizes of small, medium, large, XL, and XXL. These are all made with 100% polyester, which
+                is a very breathable and lightweight material, with It has a three stripe detail across it. The shirt
+                comes in the solid colors of grey, black, and royal blue. It has an Adidas logo on the right side of
+                the chest and an Gulfport Admiral “G” on the left side of the chest. This affordable Select Men's Polo
+                shirt will give anybody a sharper look at the price of $40.</p>
         </div>
     </div>
 </div>
 
-	
+
 <script>
     var slideIndex = 1;
     showSlides(slideIndex);
@@ -142,7 +164,8 @@ Men’s Polo Shirts
     }
 
 </script>
- <footer>
+<footer>
     <h3> ©2018 Admiral Nation</h3>
 </footer>
+
 </html>
