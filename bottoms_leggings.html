@@ -1,4 +1,3 @@
-
 <html>
 
 <head>
@@ -12,43 +11,62 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <nav><img class="menu" id="menu" src="Assets/outline-menu-24px (1).svg">
-    <a href="index.html"><img src="Branding/admiralnationdotcom Logo.png"></a><ul   id="items">
-   <a href="index.html"><li class="vivify fadeIn delay-100 active" >Home</li></a> 
-    <a href="All.html"><li class="vivify fadeIn delay-150" >Shop</li></a>
-    <a href="Watch Live.html"><li class="vivify fadeIn delay-200" >Watch Live</li></a>
-    <a href="Archive.html"><li class="vivify fadeIn delay-250">WGTV Archive</li></a>
+    <a href="index.html"><img src="Branding/admiralnationdotcom Logo.png"></a>
+    <ul id="items">
+        <a href="index.html">
+            <li class="vivify fadeIn delay-100 active">Home</li>
+        </a>
+        <a href="All.html">
+            <li class="vivify fadeIn delay-150">Shop</li>
+        </a>
+        <a href="Watch Live.html">
+            <li class="vivify fadeIn delay-200">Watch Live</li>
+        </a>
+        <a href="Archive.html">
+            <li class="vivify fadeIn delay-250">WGTV Archive</li>
+        </a>
 
-</ul></nav>
+    </ul>
+</nav>
 <div class="socialicons">
     <a href="https://www.snapchat.com/add/admiralnation" target="_blank"><img style="right: 190px;" src="Branding/Snapchat Logo.svg"></a>
-    <a href="https://www.instagram.com/admiral_nation/?utm_source=ig_profile_share&igshid=1ehxczpkif6wd" target="_blank"><img style="right: 250px;" src="Branding/Instagram%20Logo.svg"> </a>
+    <a href="https://www.instagram.com/admiral_nation/?utm_source=ig_profile_share&igshid=1ehxczpkif6wd" target="_blank"><img
+            style="right: 250px;" src="Branding/Instagram%20Logo.svg"> </a>
     <a href="https://twitter.com/GHSstore" target="_blank"><img style="right: 310px;" src="Branding/Twitter%20Logo.svg"></a>
 </div>
 <a href="Adidas.html"><img class="adidas" src="Branding/2000px-Adidas_Logo.svg.png"></a>
-   
-  
+
+
 <script>
-var toggle = document.getElementById("menu");
-var content = document.getElementById("items");
-toggle.addEventListener("click", function() {
-    content.style.display = (content.dataset.toggled ^= 1) ? "block" : "none";
-});
+    var toggle = document.getElementById("menu");
+    var content = document.getElementById("items");
+    toggle.addEventListener("click", function () {
+        content.style.display = (content.dataset.toggled ^= 1) ? "block" : "none";
+    });
 
 </script>
+<div class="carouselwrapper">
+    <div class="carousel2 " data-flickity='{ "draggable": true, "autoPlay": 2300, "pageDots": false  }'>
+        <div class="carousel-cell2 "><img src="ShopItems/IMG_6296.png"></div>
+
+
+    </div>
+</div>
 <div class="infocontainer vivify fadeIn delay-200">
     <div class="topmenu">
         <h1>Adidas Leggings
         </h1>
         <h3>$40.00</h3>
-        <h6  onclick="toggle_visibility('form');">Order For Pickup</h6>
+        <h6 onclick="toggle_visibility('form');">Order For Pickup</h6>
         <h4 onclick="toggle_visibility('form');">Order For Pickup</h4>
     </div>
-    <form style="display: none" action="mailto:amy.lee@gulfportschools.org?subject=AdmiralNation.com Order" class="vivify pullDown" method="post" enctype="text/plain" id="form">
+    <form style="display: none" action="mailto:amy.lee@gulfportschools.org?subject=AdmiralNation.com Order" class="vivify pullDown"
+        method="post" enctype="text/plain" id="form">
         <h3>Name</h3>
         <input type="text" name="Name">
         <h3>E-Mail</h3>
         <input type="text" name="E-Mail">
-        <h3>Pickup Day</h3>
+        <h3>Pickup Date</h3>
         <label for="start"></label>
         <input type="date" id="start" name="Pickup Date" value="2018" min="2018-01-01" max="2018-12-31" /> </select>
         <h3>Size</h3>
@@ -63,28 +81,21 @@ toggle.addEventListener("click", function() {
         <select id="country" name="Item Color">
             <option value="Black">Black</option>
         </select>
-        <input type="text" style="box-shadow: 0px 0px 0px;border: none;cursor: default;margin: auto;width: 250px;margin-top: 20px;margin-bottom: 0px; pointer-events: none" value="Adidas Leggings $40.00" name="Item" size="50">
+        <input type="text" style="box-shadow: 0px 0px 0px;border: none;cursor: default;margin: auto;width: 250px;margin-top: 20px;margin-bottom: 0px; pointer-events: none"
+            value="Adidas Leggings $40.00" name="Item" size="50">
         <br>
         <br>
         <input type="submit" value="Complete">
         <h3 style="margin: auto;width: 210px;margin-top: 10px;">Note: Transaction Made In Store </h3>
     </form>
-    <div class="slideshow-container">
-        <div class="mySlides vivify fadeIn"> <img src="https://via.placeholder.com/1920x1080" style="width:100%"> </div>
-        <div class="mySlides vivify fadeIn"> <img src="https://via.placeholder.com/1920x1080" style="width:100%"> </div>
-        <div class="mySlides vivify fadeIn"> <img src="https://via.placeholder.com/1920x1080" style="width:100%"> </div>
-        <div class="slidebtns">
-            <a class="prev" onclick="plusSlides(-1)"><img src="Assets/Back%20Btn.svg"></a>
-            <a class="next" onclick="plusSlides(1)"><img src="Assets/Next%20BTN.svg"> </a>
-        </div>
-        <div style="text-align:center"> <span class="dot" onclick="currentSlide(1)"></span> <span class="dot" onclick="currentSlide(2)"></span> <span class="dot" onclick="currentSlide(3)"></span> </div>
-    </div>
+
     <div class="descriptcontainer">
         <h3>Information</h3>
         <div class="blockcontainer">
             <div class="block1container">
                 <h3>Sizes Available</h3>
-                <div class="block1"> <img src="Assets/Small%20Size.svg"><img src="Assets/Medium%20Size.svg"><img src="Assets/Large%20Size.svg"><img src="Assets/X%20Large%20Size.svg"><img src="Assets/XX Large Size.svg"> </div>
+                <div class="block1"> <img src="Assets/Small%20Size.svg"><img src="Assets/Medium%20Size.svg"><img src="Assets/Large%20Size.svg"><img
+                        src="Assets/X%20Large%20Size.svg"><img src="Assets/XX Large Size.svg"> </div>
             </div>
             <div class="block2container">
                 <h3>Colors Available</h3>
@@ -95,7 +106,11 @@ toggle.addEventListener("click", function() {
         </div>
         <div class="descriptiontext">
             <h3>Description</h3>
-            <p>The leggings are perfect for girls wanting to show school spirit or for anyone who likes to wearing leggings. They are ankle length and all black with an orange and white G on the side of the right leg. They also have an adidas logo on the side of the right knee. They have a secure waistband and superior moisture. These tights are perfect for cool weather and even for warm weather. They come in all sizes small to 2XL and come in black. Get your stylish admiral leggings today for only $40!</p>
+            <p>The leggings are perfect for girls wanting to show school spirit or for anyone who likes to wearing
+                leggings. They are ankle length and all black with an orange and white G on the side of the right leg.
+                They also have an adidas logo on the side of the right knee. They have a secure waistband and superior
+                moisture. These tights are perfect for cool weather and even for warm weather. They come in all sizes
+                small to 2XL and come in black. Get your stylish admiral leggings today for only $40!</p>
         </div>
     </div>
 </div>
@@ -140,7 +155,8 @@ toggle.addEventListener("click", function() {
     }
 
 </script>
- <footer>
+<footer>
     <h3> ©2018 Admiral Nation</h3>
 </footer>
+
 </html>

@@ -9,45 +9,65 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="Branding/Favicon.png" />
     <link rel="stylesheet" href="vivify.min.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1"> </head>
-    
-    <nav><img class="menu" id="menu" src="Assets/outline-menu-24px (1).svg">
-        <a href="index.html"><img src="Branding/admiralnationdotcom Logo.png"></a><ul   id="items">
-       <a href="index.html"><li class="vivify fadeIn delay-100 active" >Home</li></a> 
-        <a href="All.html"><li class="vivify fadeIn delay-150" >Shop</li></a>
-        <a href="Watch Live.html"><li class="vivify fadeIn delay-200" >Watch Live</li></a>
-        <a href="Archive.html"><li class="vivify fadeIn delay-250">WGTV Archive</li></a>
-    
-    </ul></nav>
-    <div class="socialicons">
-        <a href="https://www.snapchat.com/add/admiralnation" target="_blank"><img style="right: 190px;" src="Branding/Snapchat Logo.svg"></a>
-        <a href="https://www.instagram.com/admiral_nation/?utm_source=ig_profile_share&igshid=1ehxczpkif6wd" target="_blank"><img style="right: 250px;" src="Branding/Instagram%20Logo.svg"> </a>
-        <a href="https://twitter.com/GHSstore" target="_blank"><img style="right: 310px;" src="Branding/Twitter%20Logo.svg"></a>
-    </div>
-    <a href="Adidas.html"><img class="adidas" src="Branding/2000px-Adidas_Logo.svg.png"></a>
-       
-      
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<nav><img class="menu" id="menu" src="Assets/outline-menu-24px (1).svg">
+    <a href="index.html"><img src="Branding/admiralnationdotcom Logo.png"></a>
+    <ul id="items">
+        <a href="index.html">
+            <li class="vivify fadeIn delay-100 active">Home</li>
+        </a>
+        <a href="All.html">
+            <li class="vivify fadeIn delay-150">Shop</li>
+        </a>
+        <a href="Watch Live.html">
+            <li class="vivify fadeIn delay-200">Watch Live</li>
+        </a>
+        <a href="Archive.html">
+            <li class="vivify fadeIn delay-250">WGTV Archive</li>
+        </a>
+
+    </ul>
+</nav>
+<div class="socialicons">
+    <a href="https://www.snapchat.com/add/admiralnation" target="_blank"><img style="right: 190px;" src="Branding/Snapchat Logo.svg"></a>
+    <a href="https://www.instagram.com/admiral_nation/?utm_source=ig_profile_share&igshid=1ehxczpkif6wd" target="_blank"><img
+            style="right: 250px;" src="Branding/Instagram%20Logo.svg"> </a>
+    <a href="https://twitter.com/GHSstore" target="_blank"><img style="right: 310px;" src="Branding/Twitter%20Logo.svg"></a>
+</div>
+<a href="Adidas.html"><img class="adidas" src="Branding/2000px-Adidas_Logo.svg.png"></a>
+
+
 <script>
     var toggle = document.getElementById("menu");
     var content = document.getElementById("items");
-    toggle.addEventListener("click", function() {
+    toggle.addEventListener("click", function () {
         content.style.display = (content.dataset.toggled ^= 1) ? "block" : "none";
     });
 
 </script>
+<div class="carouselwrapper">
+    <div class="carousel2 " data-flickity='{ "draggable": true, "autoPlay": 2300, "pageDots": false  }'>
+        <div class="carousel-cell2 "><img src="ShopItems/IMG_6229.png"></div>
+        <div class="carousel-cell2 "><img src="ShopItems/IMG_6287.png"></div>
+    </div>
+</div>
 <div class="infocontainer vivify fadeIn delay-200">
     <div class="topmenu">
-        <h1>Long sleeve T-shirt 
+        <h1>Long Sleeve T-shirt
         </h1>
         <h3>$20.00</h3>
-        <h6  onclick="toggle_visibility('form');">Order For Pickup</h6>
-        <h4 onclick="toggle_visibility('form');">Order For Pickup</h4></div>
-    <form style="display: none" action="mailto:amy.lee@gulfportschools.org?subject=AdmiralNation.com Order" class="vivify pullDown" method="post" enctype="text/plain" id="form">
+        <h6 onclick="toggle_visibility('form');">Order For Pickup</h6>
+        <h4 onclick="toggle_visibility('form');">Order For Pickup</h4>
+    </div>
+    <form style="display: none" action="mailto:amy.lee@gulfportschools.org?subject=AdmiralNation.com Order" class="vivify pullDown"
+        method="post" enctype="text/plain" id="form">
         <h3>Name</h3>
         <input type="text" name="Name">
         <h3>E-Mail</h3>
         <input type="text" name="E-Mail">
-        <h3>Pickup Day</h3>
+        <h3>Pickup Date</h3>
         <label for="start"></label>
         <input type="date" id="start" name="Pickup Date" value="2018" min="2018-01-01" max="2018-12-31" /> </select>
         <h3>Size</h3>
@@ -62,27 +82,21 @@
         <select name="Item Color">
             <option value="White">White</option>
         </select>
-        <input type="text" style="box-shadow: 0px 0px 0px;border: none;cursor: default;margin: auto;width: 250px;margin-top: 20px;margin-bottom: 0px;pointer-events: none;" value="Long sleeve T-shirt $20.00" name="Item" size="50">
+        <input type="text" style="box-shadow: 0px 0px 0px;border: none;cursor: default;margin: auto;width: 250px;margin-top: 20px;margin-bottom: 0px;pointer-events: none;"
+            value="Long Sleeve T-shirt $20.00" name="Item" size="50">
         <br>
         <br>
         <input type="submit" value="Complete">
-        <h3 style="margin: auto;width: 210px;margin-top: 10px;">Note: Transaction Made In Store </h3> </form>
-    <div class="slideshow-container">
-        <div class="mySlides vivify fadeIn"> <img src="ShopItems/IMG_6229.png" style="width:100%"> </div>
-        <div class="mySlides vivify fadeIn"> <img src="ShopItems/IMG_6225.png" style="width:100%"> </div>
-       <div class="mySlides vivify fadeIn"> <img src="ShopItems/IMG_6287.png" style="width:100%"> </div>
-        <div class="slidebtns">
-            <a class="prev" onclick="plusSlides(-1)"><img src="Assets/Back%20Btn.svg"></a>
-            <a class="next" onclick="plusSlides(1)"><img src="Assets/Next%20BTN.svg"> </a>
-        </div>
-        <div style="text-align:center"> <span class="dot" onclick="currentSlide(1)"></span> <span class="dot" onclick="currentSlide(2)"></span><span class="dot" onclick="currentSlide(3)"></span> </div>
-    </div>
+        <h3 style="margin: auto;width: 210px;margin-top: 10px;">Note: Transaction Made In Store </h3>
+    </form>
+
     <div class="descriptcontainer">
         <h3>Information</h3>
         <div class="blockcontainer">
             <div class="block1container">
                 <h3>Sizes Available</h3>
-                <div class="block1"> <img src="Assets/Small%20Size.svg"><img src="Assets/Medium%20Size.svg"><img src="Assets/Large%20Size.svg"><img src="Assets/X%20Large%20Size.svg"><img src="Assets/XX Large Size.svg"> </div>
+                <div class="block1"> <img src="Assets/Small%20Size.svg"><img src="Assets/Medium%20Size.svg"><img src="Assets/Large%20Size.svg"><img
+                        src="Assets/X%20Large%20Size.svg"><img src="Assets/XX Large Size.svg"> </div>
             </div>
             <style>
                 .block2 > img {
@@ -98,9 +112,13 @@
         </div>
         <div class="descriptiontext">
             <h3>Description</h3>
-            <p> Long sleeve T-shirt
-A fan favorite. This winter apparel is the perfect shirt for supporting our Admiral teams. This iconic white, long sleeve cotton shirt comes in a variety of sizes ranging from small to a extra extra large(2x), making winter games a lot more comfortable for everyone. You can even sport this shirt on a casual day with the benefit of showing everyone that you support one of the best schools on the coast! So for only $20.00, why not sport that big orange G?
-</p>
+            <p> Long Sleeve T-shirt
+                A fan favorite. This winter apparel is the perfect shirt for supporting our Admiral teams. This iconic
+                white, long sleeve cotton shirt comes in a variety of sizes ranging from small to a extra extra
+                large(2x), making winter games a lot more comfortable for everyone. You can even sport this shirt on a
+                casual day with the benefit of showing everyone that you support one of the best schools on the coast!
+                So for only $20.00, why not sport that big orange G?
+            </p>
         </div>
     </div>
 </div>
@@ -144,7 +162,8 @@ A fan favorite. This winter apparel is the perfect shirt for supporting our Admi
     }
 
 </script>
- <footer>
+<footer>
     <h3> ©2018 Admiral Nation</h3>
 </footer>
+
 </html>
