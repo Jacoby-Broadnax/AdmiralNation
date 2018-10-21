@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-outline-menu-24px_1_);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: rgba(114,39,39,0);
+      }
+    </style>
+    <clipPath id="clip-outline-menu-24px_1_">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="outline-menu-24px_1_" data-name="outline-menu-24px (1)" class="cls-1">
+    <rect class="cls-4" width="24" height="24"/>
+    <g id="outline-menu-24px_1_2" data-name="outline-menu-24px (1)">
+      <path id="Path_170" data-name="Path 170" class="cls-2" d="M0,0H24V24H0Z"/>
+      <path id="Path_171" data-name="Path 171" class="cls-3" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z"/>
+    </g>
+  </g>
+</svg>
