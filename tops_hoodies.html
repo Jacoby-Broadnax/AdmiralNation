@@ -110,13 +110,47 @@
         </div>
         <div class="descriptiontext">
             <h3>Description</h3>
-            <p>These heather gray hoodies are a fan favorite.  They have front pockets and are banded at the waist. They are super soft and 
+            <p>Wild about the Admirals and hunting for the perfect sweatshirt? This off the shoulder camouflage
+                sweatshirt is blank on the front and has Admirals written in orange on the back.The bottom is banned,
+                but fits loosely.50% polyester, 40% cotton, and 4% rayon.
 
             </p>
         </div>
     </div>
 </div>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
 
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" activedot", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " activedot";
+    }
+
+</script>
 <script type="text/javascript">
     function toggle_visibility(id) {
         var e = document.getElementById(id);
