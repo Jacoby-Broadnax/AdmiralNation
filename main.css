@@ -19,9 +19,7 @@ body {
 width: 100%;
 }
 
-::-webkit-scrollbar { 
-    width: 0px!important;
-  } 
+
 
 header {
     margin: auto;
