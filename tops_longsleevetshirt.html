@@ -19,7 +19,13 @@
             <li class="vivify fadeIn delay-100 active">Home</li>
         </a>
         <a href="All.html">
-            <li class="vivify fadeIn delay-150">Shop</li>
+            <li class="vivify fadeIn delay-150">Shop All</li>
+        </a>
+        <a href="https://goo.gl/maps/uRVhnmNfig32" target="_blank">
+            <li class="vivify fadeIn delay-150">Find Us</li>
+        </a>
+        <a href="feedback.html">
+            <li class="vivify fadeIn delay-150">Give Feedback</li>
         </a>
 
 
@@ -40,7 +46,6 @@
     toggle.addEventListener("click", function () {
         content.style.display = (content.dataset.toggled ^= 1) ? "block" : "none";
     });
-
 </script>
 <div class="carouselwrapper">
     <div class="carousel2 " data-flickity='{ "draggable": true, "autoPlay": 2300, "pageDots": false  }'>
@@ -50,39 +55,32 @@
 </div>
 <div class="infocontainer vivify fadeIn delay-200 navbar" id="wrap">
     <div class="topmenu">
-        <h1>Long Sleeve T-shirt
+        <h1>Long Sleeve T-Shirt
         </h1>
         <h3>$20.00</h3>
         <h6 onclick="toggle_visibility('form');">Order For Pickup</h6>
         <h4 onclick="toggle_visibility('form');">Order For Pickup</h4>
     </div>
-    <form style="display: none" action="mailto:amy.lee@gulfportschools.org?subject=AdmiralNation.com Order" class="vivify pullDown"
-        method="post" enctype="text/plain" id="form">
-        <h3>Name</h3>
-        <input type="text" name="Name">
-        <h3>E-Mail</h3>
-        <input type="text" name="E-Mail">
-        <h3>Pickup Date</h3>
-        <label for="start"></label>
-        <input type="date" id="start" name="Pickup Date" value="2018" min="2018-01-01" max="2018-12-31" /> </select>
-        <h3>Size</h3>
-        <select name="Item Size">
-            <option value="Small">S</option>
-            <option value="Medium">M</option>
-            <option value="Large">L</option>
-            <option value="Extra Large">XL</option>
-            <option value="Extra Extra Large">XXL</option>
-        </select>
-        <h3>Color</h3>
-        <select name="Item Color">
-            <option value="White">White</option>
-        </select>
-        <input type="text" style="box-shadow: 0px 0px 0px;border: none;cursor: default;margin: auto;width: 250px;margin-top: 20px;margin-bottom: 0px;pointer-events: none;"
-            value="Long Sleeve T-shirt $20.00" name="Item" size="50">
-        <br>
-        <br>
+    <form style="display: none" action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSdEPTYEQmsVLSRjeabz0ENtYO9XetfUm3MyIM_nekYt2rRqEw/formResponse"
+        class="vivify pullDown" id="form">
+
+        <input type="text" style="box-shadow: 0px 0px 0px;" name="entry.838953622" value="Adidas Leggings $40.00"
+            required readonly>
+
+        <label>Name</label>
+        <input type="text" name="entry.424118168" required>
+
+        <label>&emsp; E-Mail</label>
+        <input type="text" name="entry.1881122601" required>
+
+        <label>PickUp Date</label>
+        <input type="text" name="entry.199026238" required>
+
+        <label>Size </label>
+        <input type="text" name="entry.31267234">
+
         <input type="submit" value="Complete">
-        <h3 style="margin: auto;width: 210px;margin-top: 10px;">Note: Transaction Made In Store </h3>
+        <label style="margin-left: 10px;">Open Hours: 8:20am - 3:30pm Weekdays</label>
     </form>
 
     <div class="descriptcontainer">
@@ -107,12 +105,7 @@
         </div>
         <div class="descriptiontext">
             <h3>Description</h3>
-            <p> Long Sleeve T-shirt
-                A fan favorite. This winter apparel is the perfect shirt for supporting our Admiral teams. This iconic
-                white, long sleeve cotton shirt comes in a variety of sizes ranging from small to a extra extra
-                large(2x), making winter games a lot more comfortable for everyone. You can even sport this shirt on a
-                casual day with the benefit of showing everyone that you support one of the best schools on the coast!
-                So for only $20.00, why not sport that big orange G?
+            <p> This long sleeve t-shirt is made of 100% heavy cotton.
             </p>
         </div>
     </div>
@@ -156,7 +149,6 @@
         if (e.style.display == 'block') e.style.display = 'none';
         else e.style.display = 'block';
     }
-
 </script>
 
 <footer>
